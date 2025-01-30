@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="icon" type="image/png" href="Logo/logo-blanc.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="lienlogo"><img src="Logo/logo-entier.png" width="150px" height="45px" alt="Logo"></a>
+            <ul>
+                <li><a href="index.html" class="lienh">Accueil</a></li>
+                <li><a href="index2.html" class="lienh">Contact</a></li>
+                <button class="boutonh"><img src="Icones/coeur.png" width="15px" height="15px" alt="Symbole coeur" class="imageCoeur"> Faire un don</button>
+            </ul>
+    </header>
+    <section class="section1">
+        <h2>Contactez-nous</h2>
+        <div class="formulaire">
+            <form id="formulaire" onsubmit="return validerFormulaire()">
+                <label for="nom">Nom</label>
+                <br>
+                <input type="text" id="nom" class="i1">
+                <div id="erreur-nom" class="erreur"></div>
+                <label for="mail">Email</label>
+                <br>
+                <input type="text" id="mail" class="i1">
+                <div id="erreur-mail" class="erreur"></div>
+                <label>Sujet</label>
+                <br>
+                <select class="selecteur">
+                    <option>Question sur les dons</option>
+                    <option>Partenariat</option>
+                </select>
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message"></textarea>
+                <div id="erreur-message"></div>
+                <br>
+                <button id="boutonEnvoyer" class="boutonEnvoyer"><img src="Icones/send-blanc.png" alt="Logo d'envoi" height="20px" width="20px">Bouton</button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="dFooter">
+            <div class="tFotter">
+                <h4 class="h4F">Quatre Pattes</h4>
+                <p>Ensemble, protégeons les animaux et donnons-leur<br>
+                    une vie meilleure.</p>
+            </div>
+            <div class="cFooter">
+                <h4 class="h4F">Contact</h4>
+                <div class="env">
+                    <img src="Icones/mail.png" alt="logo enveloppe" width="20px" height="20px" class="iconeMail">
+                    <p class="pContact"> contact@quatrepattes.org</p>
+                </div>
+            </div>
+            <div class="sn">
+                <h4 class="h4F">Suivez-nous</h4>
+            </div>
+        </div> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html2
