@@ -89,7 +89,7 @@ h2 {
 }
 
 .i1 {
-    margin: 10px 0 27px 0;
+    margin: 10px 0 0px 0;
     padding: 12px 700px 12px 2px; 
     border-radius: 9px;
     border: 1px solid grey;
@@ -104,7 +104,7 @@ select {
 }
 
 textarea {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 0px 0;
     padding: 5px 698px 190px 5px; 
     border-radius: 9px;
 }
@@ -124,4 +124,10 @@ textarea {
 
 .boutonEnvoyer:hover {
     background-color: rgba(49,49,49,0.3);
+}
+
+.erreur {
+    color: #DB2727;
+    font-size: 14px;
+    padding-bottom: 30px;
 }
