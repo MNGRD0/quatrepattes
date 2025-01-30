@@ -27,26 +27,26 @@
         <h2 class="h2-1">Faites un don</h2>
         <div class="div2">
             <div class="les3">
-                <button class="box1">
+                <button class="box1" id="bouton10e" onclick="maFonction1()">
                     <h3 class="euros">10€</h3>
                     <p class="p1">permet de nourrir 5 animaux<br>pendant une journée</p>
                 </button>
-                <button class="box2">
+                <button class="box2" id="bouton20e">
                     <h3 class="euros">20€</h3>
                     <p class="p1">permet d'héberger un animal<br>sauvage pendant une nuit</p>
                 </button>
-                <button class="box3">
+                <button class="box3" id="bouton50e">
                     <h3 class="euros">50€</h3>
                     <p class="p1">permet de financer les soins<br>vétérinaires complets pour un<br>animal</p>
                     </button>
                 </div>
             <div class="les3Boutons">
-                <button class="boutonAnnee">Une fois</button>
-                <button class="boutonAnnee">Mensuel</button>
-                <button class="boutonAnnee">Annuel</button>
+                <button class="boutonAnnee"id="bouton1Fois">Une fois</button>
+                <button class="boutonAnnee" id="boutonMois">Mensuel</button>
+                <button class="boutonAnnee" id="boutonAnnee">Annuel</button>
             </div>
             <div class="longBouton">
-                <button class="longBoutonRouge"><img src="Icones/coeur.png"> Faire un don de 50€/par mois</button>
+                <button class="longBoutonRouge" id="bouton"><img src="Icones/coeur.png"> Faire un don de 50€/par mois</button>
             </div>
         </div>
     </section>
@@ -76,9 +76,9 @@
         <h2 class="h2-3">Histoire de Réussite</h2>
         <table class="histoireReussite">
             <tr>
-                <th class="imagePrincipale">
+                <th class="imagePrincipale" id="th">
                 </tr>
-                <img src="Images/luna.png" class="imageLuna" alt="Photo de chien Luna">
+                <img src="Images/luna.png" class="imageLuna" alt="Photo de chien Luna" id="photoPrincipale1">
                 <div class="description">
                     <h5 class="h5-1">Luna</h5>
                     <p class="p3">Trouvée dans la rue avec une patte cassé, Luna a été soignée et a retrouvé sa joie de vivre. Elle coule maintenant des jours<br>
@@ -89,11 +89,11 @@
             </th>
             
             <tr>
-                <div class="lesPetites">
-                <td><img src="Images/luna.png" alt="Image de Luna" width="380px" height="140px" class="tabLuna"></td>
-                <td><img src="Images/oscar.png" alt="Image de Oscar" width="380px" height="140px" class="tabOscar"></td>
-                <td><img src="Images/max.png" alt="Image de Max" width="380px" height="140px" class="tabMax"></td>
-                </div>
+                <td class="lesPetites">
+                <td><img src="Images/luna.png" alt="Image de Luna" width="380px" height="140px" class="tabLuna" onclick="maFonction()" id="luna"></td>
+                <td><img src="Images/oscar.png" alt="Image de Oscar" width="380px" height="140px" class="tabOscar" onclick="maFonction2()" id="oscar"></td>
+                <td><img src="Images/max.png" alt="Image de Max" width="380px" height="140px" class="tabMax" onclick="maFonction3()" id="max"></td>
+                </td>
             </tr>
             
 
@@ -192,6 +192,6 @@
             </div>
         </div> 
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html2

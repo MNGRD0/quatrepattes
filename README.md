@@ -4,7 +4,7 @@ To do list :
 
 - Page d'accueil : Ok
 - Page contact : Ok
-- Formulaire : En cours
+- Formulaire : Ok
 - Section 1 :
 - Section 2 :
 - Quiz :
