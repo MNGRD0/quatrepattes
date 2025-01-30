@@ -417,4 +417,26 @@ footer {
     margin-left: -120px;
 }
 
+/*Quiz JS*/
+
+.reponseFausse1 {
+    padding: 14px 146px 14px 16px;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 14px;
+    background-color: #FFE2E2;
+    
+}
+
+.reponseVraie1 {
+    padding: 14px 146px 14px 16px;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 14px;
+    background-color: #DCFCE7;
+    
+}
+
 

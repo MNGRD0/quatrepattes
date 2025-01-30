@@ -22,3 +22,83 @@ function maFonction3() {
     document.getElementById("p3").innerHTML="Sauvé d'un laboratoire, Max n'avait jamais connu l'amour. Aujourd'hui, il profite de sa liberté<br>et fait le bonheur de sa famille d'accueil.";
     document.getElementById("pAnnee").innerHTML="Février 2024";
 }
+
+//Quiz :
+
+function quiz1(){
+    const reponseFausse1=document.getElementById("reponseFausse1");
+    const boutonVrai1=document.getElementById("boutonVrai1");
+    const boutonFaux1=document.getElementById("boutonFaux1");
+
+
+    if(reponseFausse1.hidden){
+        reponseFausse1.hidden = false;
+        boutonVrai1.style.display = "none";
+        boutonFaux1.style.display = "none";
+    }
+}
+
+function quizVrai(){
+    const reponseVraie1=document.getElementById("reponseVraie1");
+    const boutonVrai1=document.getElementById("boutonVrai1");
+    const boutonFaux1=document.getElementById("boutonFaux1");
+
+
+    if(reponseVraie1.hidden){
+        reponseVraie1.hidden = false;
+        boutonVrai1.style.display = "none";
+        boutonFaux1.style.display = "none";
+    }
+}
+
+function quiz2(){
+    const reponseFausse2=document.getElementById("reponseFausse2");
+    const boutonVrai2=document.getElementById("boutonVrai2");
+    const boutonFaux2=document.getElementById("boutonFaux2");
+
+
+    if(reponseFausse2.hidden){
+        reponseFausse2.hidden = false;
+        boutonVrai2.style.display = "none";
+        boutonFaux2.style.display = "none";
+    }
+}
+
+function quizVrai2(){
+    const reponseVraie2=document.getElementById("reponseVraie2");
+    const boutonVrai2=document.getElementById("boutonVrai2");
+    const boutonFaux2=document.getElementById("boutonFaux2");
+
+
+    if(reponseVraie2.hidden){
+        reponseVraie2.hidden = false;
+        boutonVrai2.style.display = "none";
+        boutonFaux2.style.display = "none";
+    }
+}
+
+function quiz3(){
+    const reponseFausse3=document.getElementById("reponseFausse3");
+    const boutonVrai3=document.getElementById("boutonVrai3");
+    const boutonFaux3=document.getElementById("boutonFaux3");
+
+
+    if(reponseFausse3.hidden){
+        reponseFausse3.hidden = false;
+        boutonVrai3.style.display = "none";
+        boutonFaux3.style.display = "none";
+    }
+}
+
+function quizVrai3(){
+    const reponseVraie3=document.getElementById("reponseVraie3");
+    const boutonVrai3=document.getElementById("boutonVrai3");
+    const boutonFaux3=document.getElementById("boutonFaux3");
+
+
+    if(reponseVraie3.hidden){
+        reponseVraie3.hidden = false;
+        boutonVrai3.style.display = "none";
+        boutonFaux3.style.display = "none";
+    }
+}
