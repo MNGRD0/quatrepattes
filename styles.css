@@ -193,7 +193,7 @@ h1 {
 }
 
 .section4{
-    padding: 0 55px 0 55px;
+    padding: 0 55px 40px 55px;
 }
 
 .h2-3 {
@@ -206,17 +206,14 @@ h1 {
     width: 100%;
     height: 467px;
     object-fit: cover;
-    filter: brightness(0.5);
+    filter: brightness(0.7);
     border-radius: 15px;
 }
 
 .description {
     position: absolute;
-    transform: translate(0, -104%);
+    transform: translate(3%, -104%);
     color: white;
-
-    
-    
 }
 
 .pAnnee {
@@ -228,3 +225,196 @@ h1 {
     font-size: 20px;
     
 }
+
+.imagePrincipale {
+    padding-bottom: 10px;
+}
+
+
+
+.tabLuna, .tabOscar, .tabMax {
+    
+    object-fit: cover;
+    margin-left: -3px;
+    margin-right: 17px;
+    border-radius: 15px;
+    filter: brightness(0.5);
+}
+
+.tabLuna:hover, .tabOscar:hover, .tabMax:hover {
+    border: 4px solid #1dffb4;
+}
+
+.luna {
+    position: absolute;
+    top: 338%;
+    left: 17%;
+    font-size: 23px;
+    color: white;
+}
+
+.oscar {
+    position: absolute;
+    top: 338%;
+    left: 48%;
+    font-size: 23px;
+    color: white;
+}
+
+.max {
+    position: absolute;
+    top: 338%;
+    left: 79%;
+    font-size: 23px;
+    color: white;
+}
+
+.section5 {
+    background-color: #E8FDF1;
+    
+}
+
+.h2-4 {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 30px 0;
+}
+
+.question1, .question2, .question3 {
+    margin: 0px 180px 30px 180px;
+    border-radius: 11px;
+    box-shadow: 2px 5px 9px 1px rgba(49,49,49,0.3);
+    padding: 10px 25px 20px 25px;
+    background-color: white;
+}
+
+.h3-q {
+    margin-bottom: 30px;
+}
+
+.divBoutons {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    
+    
+}
+
+.vrai {
+    
+    padding: 10px 146px 10px 16px;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+
+.faux {
+    padding: 10px 380px 10px 16px;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.vrai:hover {
+    background-color: rgba(49,49,49,0.5);
+    color: white;
+}
+
+.faux:hover {
+    background-color: rgba(49,49,49,0.5);
+    color: white;
+}
+
+.h2-5 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.tousLesIcons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px 10px 100px;
+    text-align: center;
+    padding-bottom: 80px;
+    
+    
+}
+
+.pIcons {
+    color: #7c7c7c;
+    font-size: 12px;
+    
+}
+
+.h2-6 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.divTemoignage {
+    display: flex;
+    
+}
+
+figure {
+    
+    border-radius: 6px;
+    box-shadow: 2px 5px 9px 1px rgba(49,49,49,0.3);
+    
+    
+}
+
+.section6 {
+    margin-bottom: 40px;
+}
+
+.imgT {
+    display: block;
+    border-radius: 6px 6px 0 0;
+}
+
+.f2 {
+    font-weight: 700;
+    margin: 20px 20px 33px 20px;
+}
+
+.f1 {
+    margin: 20px 30px 20px 20px;
+    color: #7c7c7c;
+    font-weight: 600;
+}
+
+footer {
+    padding: 13px 29px 13px 29px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.dFooter {
+    display: flex;
+    gap: 180px;
+}
+
+.env {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconEmail {
+    padding-top: -20px;
+}
+
+.cFooter {
+    margin-left: -120px;
+}
+
+
