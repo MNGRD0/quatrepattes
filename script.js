@@ -133,6 +133,6 @@ function choisirPar(prix, id){
 }
 
 function changementDuBouton(){
-    document.getElementById("bouton").textContent=" Faire un don de" + choixPrix + "€/" + choix;
+    document.getElementById("bouton").innerHTML='<img src="Icones/coeur.png">' + " Faire un don de " + choixPrix + "€/" + choix;
 
 }
