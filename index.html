@@ -27,23 +27,23 @@
         <h2 class="h2-1">Faites un don</h2>
         <div class="div2">
             <div class="les3">
-                <button class="box1" id="bouton10e" onclick="maFonction1()">
+                <button class="box1" id="bouton10e" onclick="choisirPrix(10, 'bouton10e')">
                     <h3 class="euros">10€</h3>
                     <p class="p1">permet de nourrir 5 animaux<br>pendant une journée</p>
                 </button>
-                <button class="box2" id="bouton20e">
+                <button class="box2" id="bouton20e" onclick="choisirPrix(20, 'bouton20e')">
                     <h3 class="euros">20€</h3>
                     <p class="p1">permet d'héberger un animal<br>sauvage pendant une nuit</p>
                 </button>
-                <button class="box3" id="bouton50e">
+                <button class="box3" id="bouton50e" onclick="choisirPrix(50, 'bouton50e')">
                     <h3 class="euros">50€</h3>
                     <p class="p1">permet de financer les soins<br>vétérinaires complets pour un<br>animal</p>
                     </button>
                 </div>
             <div class="les3Boutons">
-                <button class="boutonAnnee"id="bouton1Fois">Une fois</button>
-                <button class="boutonAnnee" id="boutonMois">Mensuel</button>
-                <button class="boutonAnnee" id="boutonAnnee">Annuel</button>
+                <button class="boutonAnnee"id="bouton1Fois" onclick="choisirPar('une fois', 'bouton1Fois')">Une fois</button>
+                <button class="boutonAnnee" id="boutonMois" onclick="choisirPar('par mois', 'boutonMois')">Mensuel</button>
+                <button class="boutonAnnee" id="boutonAnnee" onclick="choisirPar('par an', 'boutonAnnee')">Annuel</button>
             </div>
             <div class="longBouton">
                 <button class="longBoutonRouge" id="bouton"><img src="Icones/coeur.png"> Faire un don de 50€/par mois</button>

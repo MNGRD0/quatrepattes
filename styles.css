@@ -112,6 +112,15 @@ h1 {
     background-color: #EDFEF6;
 }
 
+/*Lorsque bouton est cliqué*/
+
+.box1.active, .box2.active, .box3.active {
+    border: 2px solid #2FB584;
+    border-radius: 4px;
+    background-color: #EDFEF6;
+}
+
+
 .euros {
     font-size: 30px;
     margin-top: 10px;
@@ -139,6 +148,12 @@ h1 {
 }
 
 .boutonAnnee:hover {
+    background-color: #0CB981;
+    color: white;
+    cursor: pointer;
+}
+
+.boutonAnnee.active {
     background-color: #0CB981;
     color: white;
     cursor: pointer;

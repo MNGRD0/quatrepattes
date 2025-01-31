@@ -102,3 +102,37 @@ function quizVrai3(){
         boutonFaux3.style.display = "none";
     }
 }
+
+//Section 2 :
+
+let choixPrix = 0;
+let choix = "par mois";
+
+function choisirPrix(prix, id){
+    choixPrix = prix; //Prends la valeur HTML 10, 20 ou 50.
+    changementDuBouton(); //Bouton rouge
+    
+    // Supprimer la classe active pour que celui qui sera selectionner seulement soit .active
+    document.querySelectorAll('.box1, .box2, .box3').forEach(button => { //forEach(button { parcourir chaque bouton.
+        button.classList.remove('active');
+    });
+
+    // La classe .active au bouton cliqué ex : (id) = id bouton10e
+    document.getElementById(id).classList.add('active');
+}
+
+function choisirPar(prix, id){
+    choix = prix;
+    changementDuBouton();
+    
+    document.querySelectorAll('.boutonAnnee').forEach(button => {
+        button.classList.remove('active');
+    });
+
+    document.getElementById(id).classList.add('active');
+}
+
+function changementDuBouton(){
+    document.getElementById("bouton").textContent=" Faire un don de" + choixPrix + "€/" + choix;
+
+}
