@@ -395,6 +395,7 @@ figure {
 .imgT {
     display: block;
     border-radius: 6px 6px 0 0;
+    object-fit: cover;
 }
 
 .f2 {
@@ -454,4 +455,228 @@ footer {
     
 }
 
+/*Responsive Mobile*/
 
+@media (max-width: 480px) {
+    
+    header {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 5px;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .boutonh {
+        padding: 9px 250px 9px 12px;
+        
+    }
+
+
+    .les3Boutons {
+        margin: 0 30px 0 30px;
+    }
+
+    
+    .image1 {
+        height: auto;
+        max-height: 200px;
+    }
+
+    h1 {
+        font-size: 24px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .textAccueil {
+        font-size: 14px;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .div2 {
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .les3 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .box1, .box2, .box3 {
+        padding: 0px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 12px;
+    
+    }
+
+    .box1:hover, .box2:hover, .box3:hover {
+        border-radius: 12px;
+    }
+
+    .les3Boutons {
+        
+        gap: 10px;
+    }
+
+    .boutonAnnee {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .longBoutonRouge {
+        padding: 10px 15px 1px 15px;
+        font-size: 12px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section3 {
+        flex-direction: column;
+        padding: 60px 5px;
+    }
+
+    .notreMission {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    
+    
+    .notreMission {
+        
+        padding: 30px 55px 30px 40px;
+        background-color: white;
+        box-shadow: 2px 5px 9px 1px rgba(49,49,49,0.3);
+        border-radius: 0 0px 15px 15px;
+        margin: 0 20px 0 20px;
+        width: auto;
+        height: auto;
+    }
+    
+    .imageMission {
+        border-radius: 15px 15px 0 0px;
+        width: auto;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .imageLuna {
+        margin-left: 5px; 
+        width: 367px;
+        
+    }
+    
+    .tabLuna, .tabOscar, .tabMax {
+    
+        object-fit: cover;
+        margin-left: 0px;
+        margin-right: 17px;
+        border-radius: 6px;
+        filter: brightness(0.5);
+        width: 107px;
+        height: 90px;
+        
+    }
+
+    .histoireReussite {
+        padding-bottom: 70px;
+    }
+    
+    
+    
+    .luna {
+        display: none;
+    }
+    
+    .oscar {
+        display: none;
+    }
+    
+    .max {
+        display: none;
+    }
+
+    .description {
+        margin-left: 20px;
+    }
+
+
+
+    .section4 {
+        padding: 10px 5px;
+    }
+
+    .imageLuna {
+        height: auto;
+        max-height: 200px;
+    }
+
+    .description {
+        transform: translate(0%, -100%);
+    }
+
+    .section5 {
+        padding: 10px 5px ; 
+    }
+
+    .question1, .question2, .question3 {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .divBoutons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .vrai, .faux {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tousLesIcons {
+        flex-direction: column;
+        margin: 10px;
+        gap: 10px;
+    }
+
+    .divTemoignage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .dFooter {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .env {
+        flex-direction: column;
+        
+    }
+
+    .cFooter {
+        margin-left: 5px;
+    }
+}

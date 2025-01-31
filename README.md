@@ -5,7 +5,7 @@ To do list :
 - Page d'accueil : Ok
 - Page contact : Ok
 - Formulaire : Ok
-- Section 2 :
+- Section 2 : Ok
 - Section 4 : Ok
 - Quiz : Ok
 - Responsive :
