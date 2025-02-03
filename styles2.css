@@ -132,6 +132,14 @@ textarea {
     padding-bottom: 30px;
 }
 
+.iconeMail {
+    margin-top: 14px;
+}
+
+.env {
+    gap: 5px;
+}
+
 /*Responsive mobile */
 
 @media (max-width: 480px) {
@@ -203,7 +211,6 @@ textarea {
     }
 
     .env {
-        flex-direction: column;
         align-items: flex-start;
         gap: 5px;
     }
@@ -223,5 +230,9 @@ textarea {
     .sn img {
         width: 20px;  /* Ajuste la taille des icônes de réseaux sociaux */
         height: 20px;
+    }
+
+    .pContact {
+        margin-right: 180px;
     }
 }

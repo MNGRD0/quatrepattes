@@ -200,6 +200,7 @@ h1 {
 .imageMission {
     border-radius: 15px 0 0 15px;
     margin-left: 20px;
+    box-shadow: 2px 5px 9px 1px rgba(49,49,49,0.3);
 }
 
 .p2 {
@@ -390,6 +391,7 @@ figure {
 
 .section6 {
     margin-bottom: 40px;
+    margin-left: -15px;
 }
 
 .imgT {
@@ -431,6 +433,14 @@ footer {
 
 .cFooter {
     margin-left: -120px;
+}
+
+.iconeMail {
+    margin-top: 14px;
+}
+
+.env {
+    gap: 5px;
 }
 
 /*Quiz JS*/
@@ -662,7 +672,6 @@ footer {
 
     footer {
         flex-direction: column;
-        gap: 10px;
         padding: 10px;
     }
 
@@ -671,12 +680,18 @@ footer {
         gap: 10px;
     }
 
-    .env {
-        flex-direction: column;
-        
-    }
+   
 
     .cFooter {
         margin-left: 5px;
+    }
+
+
+    .iconeMail {
+        margin-top: 14px;
+    }
+
+    .pContact {
+        margin-right: 180px;
     }
 }
